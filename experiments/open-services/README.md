@@ -8,6 +8,10 @@ This is an experiment. The question it answers: how far can a **non-JS framework
 
 Checked on 2026-11-10 with an iPhone 17 simulator (iOS 27) and Node 26.
 
+[![Demo video: the Open Services experiment](../../docs/videos/open-services-experiment.jpg)](../../docs/videos/open-services-experiment.mp4)
+
+[Watch the demo](../../docs/videos/open-services-experiment.mp4) (2 min): the headless setup driven from `storybook tools`, a Node script and MCP, then the web UI, then the gaps.
+
 > **Headless version:** [HEADLESS.md](HEADLESS.md) drops the browser and drives the device only from Storybook's Node server (`storybook tools`, `createTools`, MCP). It splits out a framework-neutral `storybook-remote-renderer` package.
 
 ## How it fits together

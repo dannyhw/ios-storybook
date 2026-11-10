@@ -6,6 +6,12 @@ toolsets) without Storybook's web stack. This is a first spike; see
 [`docs/research/`](docs/research/README.md) for the research and decisions
 behind it, and [`docs/spike.md`](docs/spike.md) for what the spike proved.
 
+[![Demo video: the native iOS Storybook](docs/videos/native-ios-storybook.jpg)](docs/videos/native-ios-storybook.mp4)
+
+[Watch the demo](docs/videos/native-ios-storybook.mp4) (85 s): the stories
+sheet, Controls and Actions, globals, then the CLI and MCP toolset driving the
+same app.
+
 ## Writing stories
 
 Put a `+Stories.swift` file next to the component, inside `#if STORYBOOK`:
@@ -116,6 +122,9 @@ with no changes to Storybook:
   browser at all. A framework-neutral `storybook-remote-renderer` package
   lets `storybook tools`, the tools SDK and MCP drive the iOS app; the
   iOS-specific part is about 65 lines.
+
+[Watch the experiment demo](docs/videos/open-services-experiment.mp4) (2 min):
+headless first, then the web UI, then what Storybook 11 is still missing.
 
 Both write-ups end with what Storybook 11 is still missing for native
 frameworks.
