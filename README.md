@@ -6,7 +6,9 @@ toolsets) without Storybook's web stack. This is a first spike; see
 [`docs/research/`](docs/research/README.md) for the research and decisions
 behind it, and [`docs/spike.md`](docs/spike.md) for what the spike proved.
 
-[![Demo video: the native iOS Storybook](docs/videos/native-ios-storybook.jpg)](docs/videos/native-ios-storybook.mp4)
+
+https://github.com/user-attachments/assets/501cc223-d1b6-48a4-85d6-0ffd0ccf335a
+
 
 [Watch the demo](docs/videos/native-ios-storybook.mp4) (85 s): the stories
 sheet, Controls and Actions, globals, then the CLI and MCP toolset driving the
