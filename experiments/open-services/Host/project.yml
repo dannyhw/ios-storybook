@@ -1,0 +1,29 @@
+# Sidecar app for the Open Services experiment: the same stories as
+# ios-storybook's StorybookHost, plus a connection to a Storybook 11 server.
+name: OpenServicesHost
+options:
+  bundleIdPrefix: dev.storybook
+  deploymentTarget:
+    iOS: "18.0"
+packages:
+  StorybookOpenServices:
+    path: ../swift
+  SampleDesignSystem:
+    path: ../../../Examples/SampleDesignSystem
+targets:
+  OpenServicesHost:
+    type: application
+    platform: iOS
+    sources: [Sources]
+    dependencies:
+      - package: StorybookOpenServices
+      - package: SampleDesignSystem
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.storybook.openservices
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_CFBundleDisplayName: SB Open Services
+        SWIFT_VERSION: "6.0"
+        CODE_SIGNING_ALLOWED: NO

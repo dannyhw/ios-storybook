@@ -1,0 +1,15 @@
+{
+  "name": "storybook-ios-headless",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Headless Storybook 11 framework for native iOS stories: everything iOS-specific on top of storybook-remote-renderer.",
+  "exports": {
+    "./preset": "./src/preset.js",
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "storybook-remote-renderer": "*",
+    "storybook-ios": "*"
+  }
+}

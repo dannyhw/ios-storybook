@@ -1,0 +1,31 @@
+# Sidecar storybook app for SampleDesignSystem: what `storybook init` will
+# generate. It never touches the design system's own project.
+# Regenerate with: xcodegen generate --spec project.yml
+name: StorybookHost
+options:
+  bundleIdPrefix: dev.storybook
+  deploymentTarget:
+    iOS: "18.0"
+packages:
+  Storybook:
+    path: ../..
+  SampleDesignSystem:
+    path: ../SampleDesignSystem
+targets:
+  StorybookHost:
+    type: application
+    platform: iOS
+    sources: [Sources]
+    dependencies:
+      - package: Storybook
+        product: StorybookUI
+      - package: SampleDesignSystem
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.storybook.host
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_CFBundleDisplayName: Storybook
+        SWIFT_VERSION: "6.0"
+        CODE_SIGNING_ALLOWED: NO

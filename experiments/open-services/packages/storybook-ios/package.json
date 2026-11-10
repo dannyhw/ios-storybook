@@ -1,0 +1,21 @@
+{
+  "name": "storybook-ios",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Storybook 11 framework for native iOS stories: a Swift indexer, a .swift\u2192CSF Vite plugin, a proxy renderer and the ios/* Open Services.",
+  "exports": {
+    "./preset": "./src/preset.js",
+    "./entry-preview": "./src/entry-preview.js",
+    "./manager": "./src/manager.js",
+    "./services": "./src/services.js",
+    "./package.json": "./package.json",
+    "./swift-stories": "./src/swift-stories.js",
+    "./docgen": "./src/docgen.js"
+  },
+  "peerDependencies": {
+    "storybook": "^11.0.0-beta.1",
+    "@storybook/builder-vite": "^11.0.0-beta.1",
+    "valibot": "^1.4.0"
+  }
+}

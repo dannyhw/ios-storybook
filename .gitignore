@@ -1,0 +1,9 @@
+.build/
+.swiftpm/
+DerivedData/
+build/
+node_modules/
+Examples/StorybookHost/StorybookHost.xcodeproj/
+xcuserdata/
+*.xcuserstate
+.DS_Store
