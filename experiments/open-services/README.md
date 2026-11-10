@@ -10,7 +10,7 @@ Checked on 2026-11-10 with an iPhone 17 simulator (iOS 27) and Node 26.
 
 https://github.com/user-attachments/assets/afacd7a2-daac-445f-97c3-dc1808f8357a
 
-[Watch the demo](../../docs/videos/open-services-experiment.mp4) (2 min): the headless setup driven from `storybook tools`, a Node script and MCP, then the web UI, then the gaps.
+The demo (2 min) shows the headless setup driven from `storybook tools`, a Node script and MCP, then the web UI, then the gaps.
 
 > **Headless version:** [HEADLESS.md](HEADLESS.md) drops the browser and drives the device only from Storybook's Node server (`storybook tools`, `createTools`, MCP). It splits out a framework-neutral `storybook-remote-renderer` package.
 

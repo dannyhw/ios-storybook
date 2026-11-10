@@ -6,11 +6,9 @@ toolsets) without Storybook's web stack. This is a first spike; see
 [`docs/research/`](docs/research/README.md) for the research and decisions
 behind it, and [`docs/spike.md`](docs/spike.md) for what the spike proved.
 
-
 https://github.com/user-attachments/assets/501cc223-d1b6-48a4-85d6-0ffd0ccf335a
 
-
-[Watch the demo](docs/videos/native-ios-storybook.mp4) (85 s): the stories
+The demo (85 s) shows the stories
 sheet, Controls and Actions, globals, then the CLI and MCP toolset driving the
 same app.
 
@@ -125,7 +123,7 @@ with no changes to Storybook:
   lets `storybook tools`, the tools SDK and MCP drive the iOS app; the
   iOS-specific part is about 65 lines.
 
-[Watch the experiment demo](docs/videos/open-services-experiment.mp4) (2 min):
+[Watch the experiment demo](https://github.com/user-attachments/assets/afacd7a2-daac-445f-97c3-dc1808f8357a) (2 min):
 headless first, then the web UI, then what Storybook 11 is still missing.
 
 Both write-ups end with what Storybook 11 is still missing for native

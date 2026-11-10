@@ -2,7 +2,7 @@
 
 The [README](README.md) experiment put iOS stories into the web Storybook. This one removes the browser entirely. It runs Storybook 11's Node dev server with **no manager and no preview iframe**, and drives a native renderer only through Open Services, `storybook tools`, the tools SDK and MCP. Everything runs on published `storybook@11.0.0-beta.1` with no core patches.
 
-[Watch the demo](../../docs/videos/open-services-experiment.mp4): the first half is this headless setup.
+[Watch the demo](https://github.com/user-attachments/assets/afacd7a2-daac-445f-97c3-dc1808f8357a): the first half is this headless setup.
 
 It also separates the **contract** from the framework, to see how small the iOS-specific part can be:
 
