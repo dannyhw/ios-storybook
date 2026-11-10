@@ -8,7 +8,7 @@ This is an experiment. The question it answers: how far can a **non-JS framework
 
 Checked on 2026-11-10 with an iPhone 17 simulator (iOS 27) and Node 26.
 
-[![Demo video: the Open Services experiment](../../docs/videos/open-services-experiment.jpg)](../../docs/videos/open-services-experiment.mp4)
+https://github.com/user-attachments/assets/afacd7a2-daac-445f-97c3-dc1808f8357a
 
 [Watch the demo](../../docs/videos/open-services-experiment.mp4) (2 min): the headless setup driven from `storybook tools`, a Node script and MCP, then the web UI, then the gaps.
 
